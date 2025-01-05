@@ -1,0 +1,18 @@
+# Mengabaikan folder node_modules
+node_modules/
+
+# Mengabaikan file lingkungan
+.env
+
+# Mengabaikan file log
+*.log
+
+# Mengabaikan file tertentu
+secret.txt
+
+# Mengabaikan semua file di folder tertentu
+/build/
+
+# Mengabaikan file sementara sistem operasi
+.DS_Store
+Thumbs.db
