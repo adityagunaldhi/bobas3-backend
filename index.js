@@ -18,5 +18,6 @@ global.knex = require('knex')({
   app.use(express.json());
 
   require("./module/menu")
+  require("./module/transactions")
 
 app.listen(3000)
